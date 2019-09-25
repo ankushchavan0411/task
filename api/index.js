@@ -9,7 +9,7 @@ app.use(cors())
 // connect to mongodb
 mongoose.connect('mongodb://localhost/userDB');
 app.use(bodyParser.json());
- 
+mongoose.Promise = global.Promise;
 
 // initialize routes
 app.use('/api', require('./routes/api'));
