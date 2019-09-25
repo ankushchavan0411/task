@@ -1,11 +1,11 @@
 # task
 
-#To start react :
-before : npm i
-npm start
+#To start react ==>
+before = npm i, 
+then = npm start
 
-To start Node
-before : npm i
-nodemon index
+To start Node ==> 
+before = npm i, 
+then = nodemon index
 
 
